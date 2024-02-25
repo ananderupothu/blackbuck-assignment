@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #080202;
+    padding: 6px;
+    text-align: left;
+}
+caption{
+    border:1px solid #060101;
+    background-color: rgb(28, 237, 9); 
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+td:nth-child(even) {
+    background-color: #86f84391; /* Change background color for even columns */
+}
+td:nth-child(odd) {
+    background-color: #ddf0df; /* Change background color for even columns */
+}
+
